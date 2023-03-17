@@ -1,0 +1,34 @@
+* {
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    min-width: fit-content; /** TODO: Change width and height to fit specifics. */
+    min-height: fit-content;
+}
+
+.hero {
+    background: url("/images/banner_microsite_syspro_release_2022.png") no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+}
+
+.primary {
+    background-color: aqua;
+}
