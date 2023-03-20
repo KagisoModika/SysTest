@@ -73,18 +73,22 @@ section {
 }
 
 .right-content .buttons {
-    margin-left: 0;;
+    margin-left: 0;
+}
+
+.right-content ul {
+    padding-left: 0;
 }
 
 ul li {
-    /**/
+    list-style: none;
 }
 
 .left-screen > img {
     width: 100%;
 }
 
-/** ul li:nth-child(1) {
+/**ul li:nth-child(1) {
     list-style-image: url("icons/improved_internal_control_teal_icon.png");
 }
 
@@ -103,6 +107,26 @@ ul li:nth-child(4) {
 ul li:nth-child(5) {
     list-style-image: url("icons/business_digital_platform_team_icon.png");
 } */
+
+.listItem {
+    display: flex;
+    margin-left: 0;
+}
+
+.listItem img {
+    padding-right: 5px;
+}
+
+.liCont {
+    margin: auto 0;
+}
+
+.icon {
+    display: block;
+    max-width: 30px;
+    max-height: 30px;
+    margin: auto 0; 
+}
 
 .benefits {
     width: 100%;
@@ -187,6 +211,10 @@ ul li:nth-child(5) {
     vertical-align: middle;
 }
 
+.right-content ul li .li1 {
+    max-height: 10px;
+}
+
 .preview h2 {
     color: var(--sysgrey);
 }
@@ -198,7 +226,8 @@ ul li:nth-child(5) {
 }
 
 .sneak-peekContent {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     padding: 30px 0;
 }
 
