@@ -1,3 +1,12 @@
+:root {
+    --primary: #E87722;
+    --secondary: #05C3DE;
+    --sysgrey: #425563;
+    --sysdarkblue: #001A72;
+    --systeal: #007FA3;
+    --sysyellow: #F3D03E;
+}
+
 * {
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
@@ -24,11 +33,85 @@ section {
     padding: 50px;
 }
 
+.heroContent, .buttons {
+    width: 80%;
+}
+
+.buttons {
+    gap: 10px;
+}
+
+.hero h1, .hero h2, .hero p {
+    color: #ffffff;
+}
+
+.builtfor {
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+}
+
+.left-screen {
+    width: 40%;
+    overflow: hidden;
+}
+
+.right-content {
+    align-content: flex-start; /* TODO: Fix the positioning of the content to left*/
+    margin-left: 0;
+    width: 50%;
+}
+
+.right-content h2 {
+    color: var(--secondary);
+}
+
+.right-content h3, .right-content h4, .right-content {
+    color: var(--sysgrey);
+}
+
+.right-content .buttons {
+    margin-left: 0;;
+}
+
+ul li {
+    /**/
+}
+
+.left-screen > img {
+    width: 100%;
+}
+
+/** ul li:nth-child(1) {
+    list-style-image: url("icons/improved_internal_control_teal_icon.png");
+}
+
+ul li:nth-child(2) {
+    list-style-image: url("icons/supply_chain_connected_teal_icon.png");
+}
+
+ul li:nth-child(3) {
+    list-style-image: url("icons/organizational_control_teal_icon.png");
+}
+
+ul li:nth-child(4) {
+    list-style-image: url("icons/data_driven_teal_icon.png");
+}
+
+ul li:nth-child(5) {
+    list-style-image: url("icons/business_digital_platform_team_icon.png");
+} */
+
 button {
     padding: 8px 12px;
     border: none;
+    color: #ffffff;
 }
 
 .primary {
-    background-color: aqua;
+    background-color: var(--primary);
+}
+
+.secondary {
+    background-color: var(--secondary);
 }
