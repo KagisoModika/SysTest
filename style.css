@@ -5,6 +5,7 @@
     --sysdarkblue: #001A72;
     --systeal: #007FA3;
     --sysyellow: #F3D03E;
+    --sysbluegrey: #A4BCC4;
 }
 
 * {
@@ -33,7 +34,7 @@ section {
     padding: 50px;
 }
 
-.heroContent, .benefitsContent, .releasesContent, .availabilityContent, .nextContent, .buttons {
+.heroContent, .benefitsContent, .releasesContent, .availabilityContent, .nextContent, .previewContent, .sneak-peekContent, .footerContent, .buttons {
     width: 80%;
 }
 
@@ -172,10 +173,92 @@ ul li:nth-child(5) {
     margin-top: 10px;
 }
 
+.preview {
+    background: var(--sysbluegrey);
+}
+
+.previewContent {
+    padding: 30px 0;
+    display: flex;
+}
+
+.previewContent .right-content {
+    vertical-align: middle;
+}
+
+.preview h2 {
+    color: var(--sysgrey);
+}
+
+.sneak-peek {
+    width: 100%;
+    background: linear-gradient(90deg, var(--secondary), var(--sysdarkblue));
+    color: #ffffff;
+}
+
+.sneak-peekContent {
+    display: flex;
+    padding: 30px 0;
+}
+
+.left-content {
+    width: 60%;
+}
+
+.sneak-peekContent > .right-content {
+    /**/
+}
+
+footer {
+    width: 100%;
+    background: var(--sysgrey);
+}
+
+.footerContent {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 30px 0;
+}
+
+footer div {
+    padding: 20px;
+}
+
+footer img {
+    width: 200px;
+}
+
+footer .logo {
+    /**/
+}
+
+footer h4 {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footerContent {
+    margin: 0 auto;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer .links, footer .support {
+    margin: 0;
+}
+
 button {
     padding: 8px 12px;
     border: none;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .primary {
