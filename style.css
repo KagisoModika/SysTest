@@ -33,7 +33,7 @@ section {
     padding: 50px;
 }
 
-.heroContent, .buttons {
+.heroContent, .benefitsContent, .releasesContent, .availabilityContent, .buttons {
     width: 80%;
 }
 
@@ -101,6 +101,59 @@ ul li:nth-child(4) {
 ul li:nth-child(5) {
     list-style-image: url("icons/business_digital_platform_team_icon.png");
 } */
+
+.benefits {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+    background: linear-gradient(90deg, var(--secondary), var(--sysdarkblue));
+    color: #ffffff;
+}
+
+.benefits fieldset {
+    border: solid 1px #ffffff;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+.benefits figcaption {
+    color: #ffffff;
+    font-weight: 200;
+}
+
+.benefitsContent {
+    text-align: center;
+}
+
+.core-bens {
+    display: flex;
+    padding: 20px 0;
+}
+
+.core-bens img {
+    width: 100px;
+}
+
+.releases {
+    padding: 30px 0;
+}
+
+.releases h2 {
+    color: var(--systeal);
+    padding-bottom: 15px;
+}
+
+.releases p {
+    color: var(--sysgrey);
+}
+
+.availabilityContent img {
+    max-width: 200px;
+}
+
+.availabilityContent button {
+    margin: 20px 0;
+}
 
 button {
     padding: 8px 12px;
